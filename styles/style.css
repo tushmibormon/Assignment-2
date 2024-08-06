@@ -363,7 +363,7 @@
 /* 4th section css */
 
 .exercise-container {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 100px;
 }
 
@@ -434,12 +434,19 @@
 
 /* 5th section css */
 
-/* .calculator-container {
-    width: 1440px;
+.calculator-container {
+    /* width: 1500px; */
+    /* height: 487px; */
+    /* border: 1px solid red; */
+    ;
 }
 
 .calculator-text-content {
-    text-align: center;
+    width: 671px;
+    height: 120px;
+    padding-left: 384.5px;
+    padding-right: 384.5px;
+    margin-bottom: 88px;
 }
 
 .calculator-text-content h1{
@@ -450,7 +457,80 @@
 }
 
 .calculator-box {
+    width: 1500px;
+    height: 487px;
+    border: 1px solid rebeccapurple;
+}
 
+.calculator-box h2{
+    width: 443px;
+    height: 34px;
+    color: rgb(255, 255, 255);
+}
+
+.calculator-table-content{
+    color: rgb(255, 255, 255);
+}
+
+.calculator-table-content table{
+    border: 1px solid gray;
+}
+.calculator-table-content th, tr, td{
+    width: 40%;
+    height: 30px;
+    /* margin: auto; */
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: left;
+    padding-left: 18px;
+
+}
+
+.calculator-table-content td{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.calculator-table-content th{
+    font-size: 14px;
+    font-weight: 400;
     
-} */
+}
 
+
+.input-height{
+    width: 282.5px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin-bottom: 12px;
+    align-items: flex-start;
+    padding: 5px;
+
+}
+.input-weight{
+    width: 282.5px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin-left: px;
+}
+.input-age{
+    width: 282.5px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+.input-sex{
+    width: 282.5px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+.select-activity{
+    width: 577px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
