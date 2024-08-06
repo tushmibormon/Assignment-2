@@ -141,56 +141,75 @@
 
             <!-- 5th section start  -->
 
-            <section>
-                <div class="calculator-container">
-                    <div class="calculator-text-content">
-                        <h1>BMI Calculator</h1>
-                        <p class="text-gray">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            <div class="calculator-text-content">
+                <h1>BMI Calculator</h1>
+                <p class="text-gray">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
 
-                    </div>
-                    <div class="calculator-box">
-                        <h2>BMI Calculator Chart</h2>
-                        <div class="calculator-table-content">
-                            <table>
-                                <tr>
-                                    <th>BMI </th>
-                                    <th>Weight Status</th>
-                                </tr>
-                                <tr>
-                                    <td>Below 18.5</td>
-                                    <td>Underweight</td>
-                                </tr>
-                                <tr>
-                                    <td>18.5 - 24.9</td>
-                                    <td>Healthy</td>
-                                </tr>
-                                <tr>
-                                    <td>25.0 - 29.9</td>
-                                    <td>Overweight</td>
-                                </tr>
-                                <tr>
-                                    <td>30.0 - and Above</td>
-                                    <td>Obese</td>
-                                </tr>
-                            </table>
-                        </div>
-                        <div class="form-content">
-                            <h2>Calculate your BMI</h2>
-                            <p class="text-gray">We believe fitness should be accessible to everyone, everywhere, regardless of<br> or access to a gym. </p>
-                            <div class="input-area">
-                                <input class="input-height" type="text" placeholder="Height/cm">
-                                <input class="input-weight" type="text" placeholder="Weight/kg">
-                                <br>
-                                <input class="input-age" type="text" placeholder="Age">
-                                <input class="input-sex" type="text" placeholder="Sex">
-                                <br>
-                                <input class="select-activity" type="text" placeholder="Select an activity factor">
+            </div>
+            <section class="calculator-container">
 
+                    <div class="display-sizing">
+                        
+                        <div class="calculator-box">
+                            <div class="calculator-table-content">
+                                <h2>BMI Calculator Chart</h2>
+                                <table>
+                                    <tr>
+                                        <th>BMI </th>
+                                        <th>Weight Status</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Below 18.5</td>
+                                        <td>Underweight</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18.5 - 24.9</td>
+                                        <td>Healthy</td>
+                                    </tr>
+                                    <tr>
+                                        <td>25.0 - 29.9</td>
+                                        <td>Overweight</td>
+                                    </tr>
+                                    <tr>
+                                        <td>30.0 - and Above</td>
+                                        <td>Obese</td>
+                                    </tr>
+                                </table>
                             </div>
+                            <div class="form-content">
+                                <h2>Calculate your BMI</h2>
+                                <p class="text-gray">We believe fitness should be accessible to everyone, everywhere, regardless of<br> or access to a gym. </p>
+                                <form class="input-area">
+                                    <input type="text" placeholder="Height/cm">
+                                    <input type="text" placeholder="Weight/kg">
+                                    <input type="text" placeholder="Age">
+                                    <select class="gender" name="Gender" id="Gender">
+                                        <option value="Gender">Select your gender</option>
+                                        <option value="Gender">Male</option>
+                                        <option value="Gender">Female</option>
+                                        <option value="Gender">Third Gender</option>
+                                    </select>
+                                    <select class="activity" name="Gender" id="Gender">
+                                        <option value="Gender">Select your gender</option>
+                                        <option value="Gender">Male</option>
+                                        <option value="Gender">Female</option>
+                                        <option value="Gender">Third Gender</option>
+                                    </select>
+                                    <button class="btn-primary text-yellow">Calculate</button>
+    
+                                </form>
+                            </div>
+    
                         </div>
 
                     </div>
+            </section>
 
+            <!-- 6th section start  -->
+
+            <section class="display-sizing meet-section-container">
+                <div>
+                    
                 </div>
             </section>
        

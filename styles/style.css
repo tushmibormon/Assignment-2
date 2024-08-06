@@ -435,10 +435,8 @@
 /* 5th section css */
 
 .calculator-container {
-    /* width: 1500px; */
-    /* height: 487px; */
-    /* border: 1px solid red; */
-    ;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
 }
 
 .calculator-text-content {
@@ -457,9 +455,9 @@
 }
 
 .calculator-box {
-    width: 1500px;
-    height: 487px;
     border: 1px solid rebeccapurple;
+    display: flex;
+
 }
 
 .calculator-box h2{
@@ -474,13 +472,15 @@
 
 .calculator-table-content table{
     border: 1px solid gray;
+    border-collapse: collapse;
+    
 }
 .calculator-table-content th, tr, td{
     width: 40%;
     height: 30px;
     /* margin: auto; */
     border: 1px solid gray;
-    border-collapse: collapse;
+ 
     text-align: left;
     padding-left: 18px;
 
@@ -498,39 +498,19 @@
 }
 
 
-.input-height{
-    width: 282.5px;
-    height: 40px;
+.input-area input, .gender, .activity{
+    /* height: 48px; */
+    width: 35%;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
-    margin-bottom: 12px;
-    align-items: flex-start;
-    padding: 5px;
-
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    padding: 12px 40px 12px 20px;
 }
-.input-weight{
-    width: 282.5px;
-    height: 40px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
-    margin-left: px;
+.gender{
+    width: 45%;
 }
-.input-age{
-    width: 282.5px;
-    height: 40px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
-    margin-bottom: 12px;
-}
-.input-sex{
-    width: 282.5px;
-    height: 40px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
-}
-.select-activity{
-    width: 577px;
-    height: 40px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
+.activity{
+    width: 92%;
 }
