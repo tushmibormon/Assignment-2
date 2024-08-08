@@ -8,6 +8,8 @@
 body{
     color: rgb(255, 255, 255);
     font-family: "Inter", sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 .brand {
@@ -357,7 +359,7 @@ body{
 }
 
 .calculator-box {
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
     display: flex;
 
 }
@@ -479,3 +481,72 @@ body{
 .meet-img-6{
     background-image: url("../assets/trainer6.png");
 }
+
+/* 7th sextion start  */
+
+.footer-section-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+footer{
+    /* border: 1px solid red; */
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-text-content{
+    width: 45%;
+}
+
+.footer-text-content h2{
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 2px;
+}
+
+.footer-section-1 h4{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.footer-section-2 h4{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.footer-link a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0px 10px;
+
+}
+.footer-link li{
+    list-style: none;
+}
+
+.brand-2{
+    color: rgb(230, 83, 60);
+    font-weight: 800;
+    font-size: 2.8rem;
+    margin-top: 30px;
+}
+.hr-tag{
+    background-color: gray
+
+}
+
+.footer-right{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media screen {
+    
+}
+
+
