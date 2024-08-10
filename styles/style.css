@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -90,12 +92,18 @@ body{
     width: 520px;
 }
 
+.shape{
+    font-family: "Dancing Script", cursive;
+
+}
+
 
 
 .banner-title {
     font-weight: 900;
     font-size: 4.8rem;
     color: rgb(255, 255, 255);
+    line-height: 120%;
 
 }
 
