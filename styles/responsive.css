@@ -1,10 +1,19 @@
-@media screen and (max-width: 425px) {
-    .hambergur{
-        display: block;
-    
-    }
+@media screen and (max-width: 576px){
     .nav-links{
         display: none;
     }
-    
+    .hambergur{
+        display: block;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .habit-img-container{
+        flex-direction: column;
+    }
+    .running-container{
+        flex-direction: column;
+        width: 400px;
+        gap: 20px;
+    }
 }
