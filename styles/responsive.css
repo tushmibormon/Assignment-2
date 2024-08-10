@@ -8,12 +8,64 @@
     .banner{
         flex-direction: column;
     }
+    /* habit section start here */
     .habit-img-container{
         flex-direction: column;
     }
+    /* running container start here */
     .running-container{
         flex-direction: column;
         width: 400px;
-        gap: 20px;
+        gap: 5px;
+        
+    }
+    .run-text-content{
+        padding-bottom: 0px;
+    }
+    /* Training section start here */
+    .img-3{
+        display: none;
+    }
+    .img-6{
+        display: none;
+    }
+    .img-1{
+        width: 200px;
+    }
+    .img-2{
+        width: 180px;
+    }
+    .img-4{
+        width: 180px;
+    }
+    .img-5{
+        width: 200px;
+    }
+    .trainer-box{
+        height: 130px;
+        background-position: center;
+    }
+    .exercise-text-content{
+        width: 400px;
+    }
+    .exercise-text-content h4{
+        font-size: 36px;
+        font-weight: 900;
+    }
+    .exercise-container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /* meet img content */
+    .meet-img-content{
+        grid-template-columns: repeat(1, 1fr);
+        width: 400px;
+    }
+    .meet-img{
+        width: 313px;
+        height: 272px;
+    }
+    .meet-text-content{
+        width: 90%;
     }
 }
