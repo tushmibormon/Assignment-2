@@ -395,8 +395,6 @@ body{
 .calculator-text-content {
     width: 671px;
     height: 120px;
-    padding-left: 384.5px;
-    padding-right: 384.5px;
     margin-bottom: 88px;
 }
 
@@ -501,7 +499,6 @@ body{
 
 .meet-text-content{
     width: 68%;
-    margin: 0 auto;
     text-align: center;
     margin-bottom: 78px;
 }
@@ -584,7 +581,8 @@ footer{
     margin-top: 30px;
 }
 .hr-tag{
-    background-color: gray
+    background-color: gray;
+    
 
 }
 
@@ -592,6 +590,8 @@ footer{
     font-size: 20px;
     font-weight: 400;
     text-align: center;
+    margin: 0px;
+    padding: 20px 0px;
 }
 
 

@@ -8,9 +8,26 @@
     .banner{
         flex-direction: column;
     }
+    .header-container{
+        width: 400px;
+    }
+    .navbar{
+        width: 100%;
+    }
     /* habit section start here */
+    .habit-parent-container{
+        width: 400px;
+    }
     .habit-img-container{
         flex-direction: column;
+        align-items: center;
+    }
+    .habits-text-container{
+        width: 100%;
+    }
+    .habits-text-container h1{
+        font-size: 32px;
+
     }
     /* running container start here */
     .running-container{
@@ -66,6 +83,40 @@
         height: 272px;
     }
     .meet-text-content{
-        width: 90%;
+        width: 400px;
+        margin: 0px;
     }
+
+    /* calcutr section  */
+    .calculator-box{
+        flex-direction: column;
+        width: 400px;
+        padding: 10px;
+    }
+    .input-area input{
+        width: 30%;
+    }
+    .btn-calcult{
+        width: 224px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .calculator-text-content{
+        width: 400px;
+        height: 100%;
+        /* margin: 0px; */
+        
+    }
+
+    /* footer section  */
+    .footer-section-container{
+        flex-direction: column;
+        width: 400px;
+    }
+    .hr-tag{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
 }
