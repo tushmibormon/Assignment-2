@@ -76,10 +76,10 @@ body{
     display: none;
 }
 
-.navbar, .banner {
+/* .navbar, .banner {
     max-width: 1440px;
     margin: 0 auto;
-}
+} */
 
 .banner {
     display: flex;
