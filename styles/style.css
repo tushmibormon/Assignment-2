@@ -564,14 +564,16 @@ footer{
     margin-bottom: 30px;
 }
 
-.footer-link a{
+.footer-link li a{
     text-decoration: none;
     color: rgba(255, 255, 255, 0.5);
-    margin: 0px 10px;
+    /* margin: 0px 10px; */
+    /* padding-bottom: 10px; */
 
 }
 .footer-link li{
     list-style: none;
+    margin-bottom: 10px;
 }
 
 .brand-2{
