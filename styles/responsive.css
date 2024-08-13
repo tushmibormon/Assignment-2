@@ -115,7 +115,7 @@
 
     /* calcutr section  */
     .calculator-container, .calcult-child{
-        width: 400px;
+        width: 100%;
     }
     .calculator-box{
         flex-direction: column;
@@ -135,8 +135,11 @@
         width: 400px;
         height: 100%;
         /* margin: 0px; */
-        
     }
+    .form-content{
+        padding: 5px;
+    }
+    
 
     /* footer section  */
     .footer-section-container{
