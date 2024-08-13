@@ -114,6 +114,10 @@
     }
 
     /* calcutr section  */
+    .calculator-container{
+        padding-left: 8px;
+        width: 100%;
+    }
     .calculator-container, .calcult-child{
         width: 100%;
     }
@@ -136,9 +140,7 @@
         height: 100%;
         /* margin: 0px; */
     }
-    .form-content{
-        padding: 5px;
-    }
+    
     
 
     /* footer section  */
