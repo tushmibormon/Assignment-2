@@ -9,12 +9,16 @@
         flex-direction: column;
         gap: 50px;
     }
+    .brand{
+        margin-bottom: 0px;
+    }
     .banner-text-content{
         width: 100%;
     }
     .banner-title{
         font-size: 40px;
         width: 285px;
+        margin-top: 0px;
     }
     .banner-btn{
         width: 169px;
@@ -27,6 +31,7 @@
     }
     .btn-card-2{
         top: 50px;
+        right: -33px;
     }
     .header-container{
         width: 400px;
@@ -175,16 +180,53 @@
         width: 100%;
 
     }
+    .footer-text-content{
+        max-width: 90%;
+    }
+    .footer-text-content p{
+        max-width: 100%;
+        margin-bottom: 24px;
+    }
 
     /* extra section  */
-    .extra-content{
-        width: 400px;
-    }
-    .extra-text-content{
-        width: 95%;
+
+    .extra-content-parent{
+        grid-template-columns: repeat(1,1fr);
+        
     }
     .extra-section-container{
-        width: 400px;
+        flex-direction: column;
     }
+    .extra-content-child p{
+        padding: 8px;
+        
+    }
+    .display-sizing{
+        max-width: 90%;
+    }
+    .extra-img-content{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .extra-img-content img{
+
+        max-width: 100%;
+        padding-bottom: 20px;
+
+    }
+    .extra-text-content{
+        margin-bottom: 24px;
+    }
+    .extra-text-content h1{
+        font-size: 2.3rem;
+        
+    }
+    .extra-text-content p{
+        font-size: 0.88rem;
+        margin-bottom: 0px;
+
+    }
+
+
     
 }
