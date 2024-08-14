@@ -175,5 +175,16 @@
         width: 100%;
 
     }
+
+    /* extra section  */
+    .extra-content{
+        width: 400px;
+    }
+    .extra-text-content{
+        width: 95%;
+    }
+    .extra-section-container{
+        width: 400px;
+    }
     
 }

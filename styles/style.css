@@ -624,4 +624,43 @@ footer{
     padding: 20px 0px;
 }
 
+/* extra section  */
 
+.extra-section-container{
+    border: 1px solid rebeccapurple;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    
+}
+.extra-text-content{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+    
+    
+}
+.extra-text-content h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.extra-section-container{
+    display: flex;
+    gap: 30px;
+}
+.extra-content-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    /* padding: 20px 0px 20px 20px ; */
+}
+.extra-content-child h2{
+    font-size: 2rem;
+}
+.extra-img-content img{
+    width: 300px;
+    height: auto;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
