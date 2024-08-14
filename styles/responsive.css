@@ -56,8 +56,21 @@
         gap: 5px;
         
     }
+    .btn-join-now{
+        width: 90%;
+        align-items: center;
+        margin-bottom: 31px;
+    }
     .run-text-content{
-        padding-bottom: 0px;
+        padding: 0px;
+        width: 100%;
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+    .run-img-content img{
+        width: 350px;
+        height: auto;
+        margin-bottom: 35px;
     }
     /* Training section start here */
     .img-3{
@@ -96,38 +109,41 @@
     /* meet img content */
     .meet-img-content{
         grid-template-columns: repeat(1, 1fr);
-        width: 400px;
-        margin-left: 10px;
+        width: 100%;
+
     }
     .meet-img{
         width: 313px;
         height: 272px;
-        padding-left: 40px;
+        margin-left: 40px;
 
     }
     .meet-text-content{
-        width: 400px;
+        width: 100%;
         margin: 0px;
+        margin-bottom: 37px;
     }
     .meet-section-container{
         width: 400px;
+        margin-top: 0px;
+        margin-top: 66px;
     }
 
     /* calcutr section  */
-    .calculator-container{
-        padding-left: 8px;
-        /* width: 100%; */
+    .bmi-child-container{
+        width: 400px;
+        margin: 0 auto;
     }
-    .calculator-container, .calcult-child{
+    .form-content{
         width: 100%;
     }
-    .calculator-box{
-        flex-direction: column;
-        /* width: 400px; */
-        /* padding: 10px; */
-    }
     .input-area input{
-        width: 30%;
+        width: 45%;
+    }
+    .bmi-child{
+        flex-direction: column;
+        gap: 20px;
+        padding-left: 20px;
     }
     .btn-calcult{
         width: 224px;
@@ -138,7 +154,10 @@
     .calculator-text-content{
         width: 400px;
         height: 100%;
-        /* margin: 0px; */
+        margin: 0;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        padding-left: 20px;
     }
     
     

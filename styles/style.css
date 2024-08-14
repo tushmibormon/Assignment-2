@@ -286,18 +286,20 @@ body{
 
 .running-container {
     display: flex;
-    gap: 100px;
+    gap: 80px;
     width: 95%;
     height: 100%;
     border-radius: 18px;
     background: rgb(34, 34, 34);
     margin-top: 100px;
+    align-items: center;
 }
 
 .run-text-content {
     padding-left: 54px;
     padding-top: 41.5px;
     padding-bottom: 40.5px;
+    width: 53%;
     
 }
 
@@ -319,8 +321,6 @@ body{
 .run-img-content img {
     width: 366px;
     height: 312px;
-    margin-top: 40px;
-    margin-left: 20px;
     border-radius: 20px;
 }
 
@@ -401,13 +401,14 @@ body{
 .calculator-container {
     width: 100%;
     background-color: rgb(34, 34, 34);
-    height: 300px;
+    height: 100%;
 }
 
 .calculator-text-content {
     width: 671px;
     height: 120px;
     margin-bottom: 88px;
+    margin-top: 88px;
 }
 
 .calculator-text-content h1{
@@ -417,17 +418,6 @@ body{
     margin-bottom: 14px;
 }
 
-.calculator-box {
-    /* border: 1px solid rebeccapurple; */
-    display: flex;
-
-}
-
-.calculator-box h2{
-    width: 443px;
-    height: 34px;
-    color: rgb(255, 255, 255);
-}
 
 .calculator-table-content{
     color: rgb(255, 255, 255);
@@ -448,6 +438,29 @@ body{
     padding-left: 18px;
 
 }
+.form-content{
+    width: 60%;
+
+}
+.form-content h2{
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 14px;
+
+}
+.form-content p{
+    margin-bottom: 34px;
+}
+.bmi-1st-content h2{
+    margin-bottom: 40px;
+
+}
+
+.bmi-child{
+    gap: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 .calculator-table-content td{
     font-size: 12px;
@@ -459,23 +472,26 @@ body{
     font-weight: 400;
     
 }
+table{
+    height: 216px;
+}
 
 
 .input-area input, .gender, .activity{
     /* height: 48px; */
-    width: 35%;
+    width: 45%;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
     border: none;
     margin-bottom: 10px;
-    margin-left: 5px;
+    /* margin-left: 5px; */
     padding: 12px 40px 12px 20px;
 }
 .gender{
     width: 45%;
 }
 .activity{
-    width: 92%;
+    width: 91%;
 }
 
 /* 6th section scc start  */
